@@ -1,0 +1,37 @@
+Tia – Database instructions
+•	First install Postgres at https://www.postgresql.org/download/
+	•	Pick the correct distribution for your operating system and then just follow the installer.
+	•	Make sure to remember your password as it will be used to connect to the database.
+•	You are then going to start up SQL shell(Psql). You can hit enter all the way through the login details as the default is 
+	used in every case until password where you will enter your password.
+•	Once in you will just need to enter the command CREATE DATABASE kev;
+•	Then you are done with the shell and can exit with \q.
+•	Input and Output is shown below.
+
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+Password for user postgres:
+psql (13.2)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=# CREATE DATABASE kev;
+CREATE DATABASE
+postgres=#
+
+
+•	Once Postgres is installed and database created return to your IDE.
+•	You’re going to replace in the code the open.sql part of the db.go code with your own password if it is not tia.
+•	You then should be good to go! If not please contact William Frost.
+
+To access the database you will need to create a .env file in the server folder. There is a
+sample.env file included for reference that contains empty fields and an explanation for each. 
+
+** NOTE ** 
+Before you push your changes to your branch (for the first time) make sure that the .env file is not included.
+This should be handled in the .gitignore file, however, if for some reason it is not please do not push as this
+will put your postgres password on the repository.

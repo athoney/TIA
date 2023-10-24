@@ -1,0 +1,30 @@
+{{ define "homepage/404.html" }}
+{{template "layouts/header.html" .}}
+
+<!-- 404 Start -->
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-12">
+                  <div class="container-fluid">
+                    <video src="assets/img/404.mp4"  autoplay muted></video>
+                  </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12">
+                    <p>Sorry, the page you are looking for does not exist. Let's get you back on track. </p>
+                </div>
+            </div>
+            <div id="cursor"></div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-4 mt-3">
+                    <a href="/home" class="btn btn-primary btn-lg btn-block">Go to Home</a>
+                </div>
+            </div>
+        </div>
+
+
+<!-- 404 End -->
+
+{{template "layouts/footer.html" .}}
+{{ end }}

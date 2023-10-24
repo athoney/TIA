@@ -1,0 +1,22 @@
+{{ define "homepage/index.html" }}
+{{template "layouts/header.html" .}}
+
+<!-- Home Start -->
+        <div class="container text-center">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 mb-5">
+                    <h1>Welcome {{.Title}}.</h1>
+                    <span id="welcome" class="tia-desc"></span>
+                </div>
+            </div>
+            <div id="cursor"></div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-4 mt-5">
+                    <a href="/graph" class="btn btn-primary btn-lg btn-block">Get Started</a>
+                </div>
+            </div>
+        </div>
+<!-- Home End -->
+
+{{template "layouts/footer.html" .}}
+{{ end }}

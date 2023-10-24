@@ -1,0 +1,120 @@
+{{ define "homepage/help.html" }}
+{{template "layouts/header.html" .}}
+
+<!-- Help Start -->
+<div id="cursor"></div>
+<div class="container text-center">
+    <div class="row align-items-center">
+        <div class="col-12 mb-5">
+            <h1 style="color: #23CE6B"> How can we help you?</h1>
+        </div>
+    </div>
+    <div class="row align-items-left mb-5">
+        <h3>Getting Started</h3>
+    </div>
+    <div class="row align-items-center mt-4 mb-4">
+      <div class="col-4">
+        <div class="card">
+          <img src="assets/img/vendorproduct.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-8" align="left">
+        <p>Head over to our <a href="/graph">graph</a> page and select:</p>
+        <p> A vendor (a product owner)</p>
+        <p> & </p>
+        <p> A product ( a software)</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-4 mb-4">
+      <div class="col-4">
+        <div class="card">
+          <img src="assets/img/table.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-8" align="left">
+        <p>Based on your selection combination, a table will populate with all the known exploited vulnerabilities.</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center mt-4 mb-5">
+      <div class="col-4">
+        <div class="card">
+          <img src="assets/img/stixex.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+      <div class="col-8" align="left">
+        <p>Check out our other informational tabs: Visualizations and Stix:</p>
+        <li>Visualizations provides additional information about the vulnerabilities including a barchart of the associated common weakness enumerations (CWEs) and a piechart depicting the severity score of the vulnerabilities. </li>
+        <li>STIX represents your entire selection (vendor, product, and vulnerabilities) as a directed graph.</li>
+      </div>
+    </div>
+
+    <div class="row align-items-left mt-5 mb-3">
+      <h3>FAQ</h3>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <div id="accordion">
+          <div class="card mb-2">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn" data-toggle="collapse" data-target="#cves" aria-expanded="true" aria-controls="cves">
+                  What are CVEs?
+                </button>
+              </h5>
+            </div>
+
+            <div id="cves" class="collapse" aria-labelledby="cves" data-parent="#accordion">
+              <div class="card-body">
+                CVEs stands for Common Vulnerabilities and Exposures. A flaw in a software, firmware, hardware, or service component resulting from a weakness that can be exploited, causing a negative impact to the confidentiality, integrity, or availability of an impacted component or components. <a href="https://www.cve.org/ResourcesSupport/Glossary?activeTerm=glossaryVulnerability">*</a>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#cwes" aria-expanded="false" aria-controls="cwes">
+                  What are CWEs?
+                </button>
+              </h5>
+            </div>
+            <div id="cwes" class="collapse" aria-labelledby="cwes" data-parent="#accordion">
+              <div class="card-body">
+                CWE stands for common weakness enumeration. “Weaknesses” are flaws, faults, bugs, or other errors in software or hardware implementation, code, design, or architecture that if left unaddressed could result in systems, networks, or hardware being vulnerable to attack. The CWE List and associated classification taxonomy serve as a language that can be used to identify and describe these weaknesses in terms of CWEs. <a href="https://cwe.mitre.org/about/index.html">*</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#vulns" aria-expanded="false" aria-controls="vulns">
+                  Why are vulnerabilities critical?
+                </button>
+              </h5>
+            </div>
+            <div id="vulns" class="collapse" aria-labelledby="vulns" data-parent="#accordion">
+              <div class="card-body">
+                CISA maintains the authoritative source of vulnerabilities that have been exploited in the wild: the Known Exploited Vulnerability (KEV) catalog. CISA strongly recommends all organizations review and monitor the KEV catalog and prioritize remediation of the listed vulnerabilities to reduce the likelihood of compromise by known threat actors. <a href="https://www.cisa.gov/known-exploited-vulnerabilities">*</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-left mt-5 mb-3">
+      <h3>Contact Us</h3>
+    </div>
+    <div class="row align-items-left">
+      <p>Alicia Thoney - Project Lead</p>
+    </div>
+    <div class="row align-items-left">
+      <p>athoney@uwyo.edu</p>
+    </div>
+</div>
+
+<!-- Help End -->
+
+{{template "layouts/footer.html" .}}
+{{ end }}

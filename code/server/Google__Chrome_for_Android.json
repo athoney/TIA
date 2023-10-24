@@ -1,0 +1,330 @@
+{
+	"type": "bundle",
+	"id": "bundle--b46a68d1-e7c0-4e1f-8444-9a077f67eedc",
+	"objects": [
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "identity--b96ffc21-e058-44e0-a3e2-5f3196b5e706",
+			"identity_class": "organization",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "identity"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Chrome",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "infrastructure"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--d20929ea-472d-4fbd-a42a-7dc37e5d4b80",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "owns",
+			"revoked": false,
+			"source_ref": "identity--b96ffc21-e058-44e0-a3e2-5f3196b5e706",
+			"spec_version": "2.1",
+			"target_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Type Confusion in V8 in Google Chrome prior to 91.0.4472.164 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+			"id": "vulnerability--ebbe5909-d2e7-4afb-9ce2-77b6c997cecf",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Browser V8 Arbitrary Code Execution",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--b4b90103-fac4-4ab7-82b2-bae9ef1e6cb4",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--ebbe5909-d2e7-4afb-9ce2-77b6c997cecf",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+			"id": "vulnerability--74b40a17-ad5f-4806-9620-b8192d3757da",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome FreeType Memory Corruption",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--2963aa60-0848-4b90-9f2b-ed4f4a692102",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--74b40a17-ad5f-4806-9620-b8192d3757da",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Data race in audio in Google Chrome prior to 89.0.4389.72 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+			"id": "vulnerability--4819f1ef-78de-4384-9b7b-bd7d8963d262",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Heap Buffer Overflow in WebAudio Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--00ce2e18-dade-48f9-92ca-2c5751433a5a",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--4819f1ef-78de-4384-9b7b-bd7d8963d262",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Use after free in site isolation in Google Chrome prior to 86.0.4240.198 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.",
+			"id": "vulnerability--27f91697-4ff9-4bd7-ae45-df04a14f2230",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Site Isolation Component Use-After-Free Remote Code Execution vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--db6099a9-c127-49fa-a626-ca30039a8d67",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--27f91697-4ff9-4bd7-ae45-df04a14f2230",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Information disclosure in Google Chrome that exists due to excessive data output in core.",
+			"id": "vulnerability--426ec9e1-4ecb-402d-9cc2-e4cb3f28c0e5",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Information Leakage",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--09d9e631-4c70-4e4e-9520-148fe21b29b6",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--426ec9e1-4ecb-402d-9cc2-e4cb3f28c0e5",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Google Chrome out-of-bounds write that allows to execute arbitrary code on the target system.",
+			"id": "vulnerability--5949ac1b-563d-4b29-8e4b-91000f18fede",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Out-of-bounds write",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--6d92b76d-c0c1-48e4-ac4d-c247261c83f0",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--5949ac1b-563d-4b29-8e4b-91000f18fede",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Google Chrome Use-After-Free vulnerability",
+			"id": "vulnerability--cc1ace74-8603-4e65-96e9-9dbb67e56da2",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--567f6efd-a68d-438b-a8d4-c662773e1e8d",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--cc1ace74-8603-4e65-96e9-9dbb67e56da2",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Use-after-free weakness in Portals, Google's new web page navigation system for Chrome. Successful exploitation can let attackers to execute code.",
+			"id": "vulnerability--a5c8ee52-6aca-429a-b9c2-03ccfce4c4fb",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--f93fd378-771c-4728-a3d7-e8b1584a398a",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--a5c8ee52-6aca-429a-b9c2-03ccfce4c4fb",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Google Chrome use-after-free error within the V8 browser engine.",
+			"id": "vulnerability--58e61235-3e6e-4381-882b-91474d1ecd46",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--02d65943-6ef1-4344-9fc9-facecb66e568",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--58e61235-3e6e-4381-882b-91474d1ecd46",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Use after free in WebGL in Google Chrome prior to 91.0.4472.114 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+			"id": "vulnerability--8d2c446c-b985-4d59-9518-2a5ccaabd27c",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome WebGL Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--957df31d-2e3e-4115-b009-48a071f764da",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--8d2c446c-b985-4d59-9518-2a5ccaabd27c",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Use-after-free vulnerability in Media in Google Chrome prior to 81.0.4044.92 allowed a Remote attacker to execute arbitrary code via a crafted HTML page.",
+			"id": "vulnerability--cb3242a1-f13c-4657-82ef-f50d241d6a6d",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Prior to 81.0.4044.92 Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--6afdf312-f1c0-44d6-a3cc-38fb88dd5ffc",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--cb3242a1-f13c-4657-82ef-f50d241d6a6d",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "The vulnerability exists due to a use-after-free error within the Animation component in Google Chrome.",
+			"id": "vulnerability--08f3de07-494f-455c-873d-ce15d90b0ba4",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--deb6a38a-0043-470e-bad1-76cd6d1ce1bb",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--08f3de07-494f-455c-873d-ce15d90b0ba4",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Google Chrome contains a heap use-after-free vulnerability which allows an attacker to potentially perform out of bounds memory access.",
+			"id": "vulnerability--9cc8767f-98c3-4ee4-8fef-3f368265fe15",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--abfdbef6-9845-428c-bcd2-244088d21579",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--9cc8767f-98c3-4ee4-8fef-3f368265fe15",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"description": "Use-after-free in WebAudio in Google Chrome allows a remote attacker to potentially exploit heap corruption.",
+			"id": "vulnerability--3c960687-667e-4e39-90e3-395f9c72c897",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"name": "Google Chrome Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:27:50.328-06:00",
+			"id": "relationship--10852637-16b5-461e-8668-5a0825026c2c",
+			"modified": "2023-10-24T11:27:50.328-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--4173b693-acee-4b62-a920-cc2269b817b2",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--3c960687-667e-4e39-90e3-395f9c72c897",
+			"type": "relationship"
+		}
+	]
+}

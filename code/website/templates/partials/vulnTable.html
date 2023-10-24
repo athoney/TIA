@@ -1,0 +1,12 @@
+{{define "homepage/vulnTable.html"}}
+
+      {{ range .vulnerabilities }}
+      <tr>
+        <th scope="row"><a href="https://nvd.nist.gov/vuln/detail/{{.Cveid}}" target="_blank">{{ .Cveid }}</a></th>
+        <td>{{ .VulnerabilityName }}</td>
+        <td>{{ .ShortDescription }}</td>
+        <td>{{ .RequiredAction }}</td>
+      </tr>
+      {{ end }}
+
+{{end}}

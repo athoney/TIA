@@ -1,0 +1,246 @@
+{
+	"type": "bundle",
+	"id": "bundle--8d318b7b-af89-4f67-8225-6c87b1195ada",
+	"objects": [
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "identity--3242ccd8-5f44-49da-bc93-0fd319da3da2",
+			"identity_class": "organization",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "identity"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Acrobat and Reader",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "infrastructure"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--9c824d53-97e7-4b4a-b83d-07b93799c9ea",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "owns",
+			"revoked": false,
+			"source_ref": "identity--3242ccd8-5f44-49da-bc93-0fd319da3da2",
+			"spec_version": "2.1",
+			"target_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by a heap-based buffer overflow vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+			"id": "vulnerability--a91a59e6-a36c-4f83-bf6c-a228d06ba6de",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Heap-based Buffer Overflow Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--295beed2-a317-4552-bed1-baf746bfee6d",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--a91a59e6-a36c-4f83-bf6c-a228d06ba6de",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Acrobat Reader DC versions versions 2021.001.20150 (and earlier), 2020.001.30020 (and earlier) and 2017.011.30194 (and earlier) are affected by a Use After Free vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+			"id": "vulnerability--2719434f-e229-4c17-886c-e13cb8588114",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--7acba451-dada-488d-ace4-1c35f08207e8",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--2719434f-e229-4c17-886c-e13cb8588114",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Adobe Acrobat and Reader contain an input validation issue in a JavaScript method that could potentially lead to remote code execution.",
+			"id": "vulnerability--7a11758c-e7ac-48f6-a50a-298d47e4c7f1",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Reader and Acrobat Input Validation Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--c3eabeca-c201-4737-911b-77f51cb8f6c9",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--7a11758c-e7ac-48f6-a50a-298d47e4c7f1",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Adobe Acrobat and Reader on Windows allow attackers to bypass a sandbox protection mechanism, and consequently execute native code in a privileged context.",
+			"id": "vulnerability--b7fa6e2a-5868-4443-981c-4ee80139d237",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Sandbox Bypass Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--73a8b56d-c384-4f83-9e3a-9bd430b6b267",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--b7fa6e2a-5868-4443-981c-4ee80139d237",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Adobe Acrobat and Reader have a double free vulnerability that could lead to remote code execution.",
+			"id": "vulnerability--d9468b26-0d73-4b14-81ad-9425297f9f59",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Double Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--ca12a6a7-d84b-4d7b-988f-df1da6be806b",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--d9468b26-0d73-4b14-81ad-9425297f9f59",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "The Universal 3D (U3D) component in Adobe Acrobat and Reader contains a memory corruption vulnerability which could allow remote attackers to execute code or cause denial-of-service.",
+			"id": "vulnerability--5364b24a-411b-476d-adee-21ceaf0a3d24",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Universal 3D Memory Corruption Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--1b227eb7-5cca-4f51-8722-b48e4067dc87",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--5364b24a-411b-476d-adee-21ceaf0a3d24",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Use-after-free vulnerability in Adobe Acrobat and Reader allows remote attackers to execute code via a crafted PDF file.",
+			"id": "vulnerability--06989e7a-ec79-441c-b765-1636e422e309",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--93757d16-b036-4b70-a54c-9c9eb52b594c",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--06989e7a-ec79-441c-b765-1636e422e309",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Adobe Acrobat and Reader contains an array boundary issue in Universal 3D (U3D) support that could lead to remote code execution.",
+			"id": "vulnerability--a6423983-6f0a-42de-a021-b40f0bcdcd13",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Universal 3D Remote Code Execution Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--2ee0461c-f9c4-4ec4-b984-d7798d90e90f",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--a6423983-6f0a-42de-a021-b40f0bcdcd13",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Adobe Acrobat and Reader contains an unespecified vulnerability described as a design flaw which could allow a specially crafted file to be printed silently an arbitrary number of times.",
+			"id": "vulnerability--49773eb2-bcf6-4e8c-b185-e71974005f13",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Unspecified Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--319ded4a-ca85-4de3-90f4-b1e699a98154",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--49773eb2-bcf6-4e8c-b185-e71974005f13",
+			"type": "relationship"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"description": "Adobe Acrobat and Reader contain a buffer overflow vulnerability which allows remote attackers to execute code via a PDF file with long arguments to unspecified JavaScript methods.",
+			"id": "vulnerability--816f0e98-f8b5-4a90-8e9c-5331f735ed82",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"name": "Adobe Acrobat and Reader Buffer Overflow Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2022-11-12T10:01:43.175-07:00",
+			"id": "relationship--464e06c3-5b83-472a-b76f-2ef19eac6299",
+			"modified": "2022-11-12T10:01:43.175-07:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--09a42671-55e3-46b1-9e84-393dbdba07a8",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--816f0e98-f8b5-4a90-8e9c-5331f735ed82",
+			"type": "relationship"
+		}
+	]
+}

@@ -1,0 +1,309 @@
+{
+	"type": "bundle",
+	"id": "bundle--d56fae45-9d69-4118-95f8-3ce567f5ccdc",
+	"objects": [
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "identity--5cf9ed68-d501-4176-a2be-54be945ee76f",
+			"identity_class": "organization",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "identity"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "iOS",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "infrastructure"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--fb438453-ceca-4087-a4f5-b79144ee2518",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "owns",
+			"revoked": false,
+			"source_ref": "identity--5cf9ed68-d501-4176-a2be-54be945ee76f",
+			"spec_version": "2.1",
+			"target_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "An integer overflow was addressed with improved input validation vulnerability affecting iOS devices that allows for remote code execution.",
+			"id": "vulnerability--d9b34290-ece4-4eb1-84d0-2997feb33feb",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS \"FORCEDENTRY\" Remote Code Execution Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--2feef35f-ef14-4a28-9977-9c07297afd21",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--d9b34290-ece4-4eb1-84d0-2997feb33feb",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "Use after free issue. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--dc50e675-0326-4556-a744-6345c39c3025",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple WebKit Browser Engine Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--2691891c-40ba-4b34-9184-c7c07a495f45",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--dc50e675-0326-4556-a744-6345c39c3025",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--64557fab-5090-40d9-8780-c902463c89f7",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Privilege Escalation and Code Execution Chain",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--0bb87001-df41-4324-bbba-baef6ae01e42",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--64557fab-5090-40d9-8780-c902463c89f7",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "A remote attacker may be able to cause arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--a426a53e-690f-47ad-ae50-077428b43c69",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Privilege Escalation and Code Execution Chain",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--e296e883-5aec-44a4-b977-90a67bc3083d",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--a426a53e-690f-47ad-ae50-077428b43c69",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "A remote attacker may be able to cause arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--0f6a8e59-0293-4720-974c-b3d5e5eb8ed6",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Privilege Escalation and Code Execution Chain",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--f24f37a0-6f2f-4ec2-b030-d86adc9a54ae",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--0f6a8e59-0293-4720-974c-b3d5e5eb8ed6",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "Processing maliciously crafted web content may lead to universal cross site scripting. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--77214424-5666-40ef-ab0f-bff230fd2935",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Webkit Browser Engine XSS",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--b9a5c269-b051-44b1-bdc8-0293119dfc32",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--77214424-5666-40ef-ab0f-bff230fd2935",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--0c13881e-af3d-48a5-ac53-53e3d469018a",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Webkit Storage Use-After-Free Remote Code Execution Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--f2039334-b6ff-426e-8767-b74d4d5c10df",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--0c13881e-af3d-48a5-ac53-53e3d469018a",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--6608d4b8-53c2-47e9-ac10-f1b7e20baf00",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS12.x Buffer Overflow",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--a4492df9-e22d-4b9b-85a5-ffa082e02e42",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--6608d4b8-53c2-47e9-ac10-f1b7e20baf00",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "Memory corruption issue. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--d3b02e6f-c0e9-442f-8c98-ae1cefc96154",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple WebKit Browser Engine Memory Corruption Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--8c69b2a7-ef40-4d1b-abc5-a9e415a3777b",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--d3b02e6f-c0e9-442f-8c98-ae1cefc96154",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "Apple iOS contains a memory corruption vulnerability which could allow an attacker to perform remote code execution.",
+			"id": "vulnerability--5aba8488-a829-4985-b738-8c6e275c072d",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Memory Corruption Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--b6177dcd-cdef-402d-927c-53e772d6daff",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--5aba8488-a829-4985-b738-8c6e275c072d",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "The Apple iOS kernel allows attackers to obtain sensitive information from memory via a crafted application.",
+			"id": "vulnerability--0e081c7a-324b-4b1a-8d40-d35c695c1f84",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Information Disclosure Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--55bf753e-8750-4170-b60f-3cb06a7bfff7",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--0e081c7a-324b-4b1a-8d40-d35c695c1f84",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "A memory corruption vulnerability in Apple iOS kernel allows attackers to execute code in a privileged context or cause a denial-of-service via a crafted application.",
+			"id": "vulnerability--15831fa8-24ba-4dac-8bd2-42abe13be061",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Memory Corruption Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--a0be6742-ebec-4f60-a2e8-9f4a74b8a715",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--15831fa8-24ba-4dac-8bd2-42abe13be061",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"description": "WebKit in Apple iOS contains a memory corruption vulnerability which allows attackers to execute remote code or cause a denial-of-service via a crafted web site.",
+			"id": "vulnerability--5950ab0c-8bf4-44b1-b411-6ecd7937229e",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"name": "Apple iOS Webkit Memory Corruption Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:46.151-06:00",
+			"id": "relationship--b8c45716-5e76-4d1d-b91c-0ddd7fe70add",
+			"modified": "2023-10-24T11:28:46.151-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--2f5607f5-bcb7-419a-a5ea-eddeac659bed",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--5950ab0c-8bf4-44b1-b411-6ecd7937229e",
+			"type": "relationship"
+		}
+	]
+}

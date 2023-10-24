@@ -1,0 +1,99 @@
+{
+	"type": "bundle",
+	"id": "bundle--1c93c56f-372e-4c5e-a760-0c817b369f5f",
+	"objects": [
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"id": "identity--82efb279-cfb4-4d64-97c5-455370337c0c",
+			"identity_class": "organization",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"name": "Apple",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "identity"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"id": "infrastructure--3bdebdbf-dc25-40d9-a4aa-5c640fe292d5",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"name": "iOS and iPadOS",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "infrastructure"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"id": "relationship--e8f8c4fc-a8a3-4da1-8982-ac37d7112dc7",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"relationship_type": "owns",
+			"revoked": false,
+			"source_ref": "identity--82efb279-cfb4-4d64-97c5-455370337c0c",
+			"spec_version": "2.1",
+			"target_ref": "infrastructure--3bdebdbf-dc25-40d9-a4aa-5c640fe292d5",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"description": "Apple iOS and iPadOS Arbitrary Code Execution",
+			"id": "vulnerability--132ea559-f04a-4dd3-8db9-47ea886bb049",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"name": "Apple Apple iOS and iPadOS Use-After-Free Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"id": "relationship--a8d40581-3318-404c-8a51-09ecc827c5b3",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--3bdebdbf-dc25-40d9-a4aa-5c640fe292d5",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--132ea559-f04a-4dd3-8db9-47ea886bb049",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"description": "A memory consumption issue was addressed with improved memory handling. An application may be able to execute arbitrary code with kernel privileges.",
+			"id": "vulnerability--c48c69a9-91b9-4e8f-a62d-37057073bf46",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"name": "Apple 11-13.5 XNU Kernel Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"id": "relationship--d88d1e15-8767-4c74-86e7-395e506caa41",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--3bdebdbf-dc25-40d9-a4aa-5c640fe292d5",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--c48c69a9-91b9-4e8f-a62d-37057073bf46",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"description": "Apple iOS and iPadOS contain a buffer overflow vulnerability that could allow an application to execute code with kernel privileges.",
+			"id": "vulnerability--ca7e6b04-4e6f-4a09-a9a5-9c19de9b91fe",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"name": "Apple iOS and iPadOS Buffer Overflow Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:30:19.916-06:00",
+			"id": "relationship--212e5fcd-a141-419a-8348-fc1059896c40",
+			"modified": "2023-10-24T11:30:19.916-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--3bdebdbf-dc25-40d9-a4aa-5c640fe292d5",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--ca7e6b04-4e6f-4a09-a9a5-9c19de9b91fe",
+			"type": "relationship"
+		}
+	]
+}

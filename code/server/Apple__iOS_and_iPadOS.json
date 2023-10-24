@@ -1,0 +1,120 @@
+{
+	"type": "bundle",
+	"id": "bundle--d6687647-6059-4a81-a17c-767d7a7c37d8",
+	"objects": [
+		{
+			"created": "2023-10-24T11:28:52.761-06:00",
+			"id": "identity--36d14dba-265a-41ab-9ae1-0d339f09bda0",
+			"identity_class": "organization",
+			"modified": "2023-10-24T11:28:52.761-06:00",
+			"name": "Apple",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "identity"
+		},
+		{
+			"created": "2023-10-24T11:28:52.761-06:00",
+			"id": "infrastructure--ebc3da19-a1d4-48d3-a069-b50e1a6b96e9",
+			"modified": "2023-10-24T11:28:52.761-06:00",
+			"name": "macOS",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "infrastructure"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"id": "relationship--ef8380ac-bd60-48e5-851e-6a13abce3668",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"relationship_type": "owns",
+			"revoked": false,
+			"source_ref": "identity--36d14dba-265a-41ab-9ae1-0d339f09bda0",
+			"spec_version": "2.1",
+			"target_ref": "infrastructure--ebc3da19-a1d4-48d3-a069-b50e1a6b96e9",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"description": "A malicious application may be able to bypass Privacy preferences. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--bdf65f6c-da13-4889-b03b-2131c9cc3a81",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"name": "Apple macOS Input Validation Error",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"id": "relationship--530cb12e-7067-4007-a153-b284516536ce",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--ebc3da19-a1d4-48d3-a069-b50e1a6b96e9",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--bdf65f6c-da13-4889-b03b-2131c9cc3a81",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"description": "A malicious application may bypass Gatekeeper checks. Apple is aware of a report that this issue may have been actively exploited.",
+			"id": "vulnerability--c3e1b34d-91d3-4d93-a74e-13fdabee00bd",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"name": "Apple macOS Policy Subsystem Gatekeeper Bypass",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"id": "relationship--cd8df964-24f9-47af-bf85-8f40a6e454ac",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--ebc3da19-a1d4-48d3-a069-b50e1a6b96e9",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--c3e1b34d-91d3-4d93-a74e-13fdabee00bd",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"description": "macOS Monterey contains an out-of-bounds write vulnerability that could allow an application to execute arbitrary code with kernel privileges.",
+			"id": "vulnerability--9f87c93a-8ad1-4a73-bff5-35ff06e0e6ec",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"name": "Apple macOS Out-of-Bounds Write Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"id": "relationship--f0260681-2990-4417-82f6-80f9d54c4c46",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--ebc3da19-a1d4-48d3-a069-b50e1a6b96e9",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--9f87c93a-8ad1-4a73-bff5-35ff06e0e6ec",
+			"type": "relationship"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"description": "macOS Monterey contains an out-of-bounds read vulnerability that could allow an application to read kernel memory.",
+			"id": "vulnerability--744e9d72-1076-4ae0-b66c-f9cdec628b4d",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"name": "Apple macOS Out-of-Bounds Read Vulnerability",
+			"revoked": false,
+			"spec_version": "2.1",
+			"type": "vulnerability"
+		},
+		{
+			"created": "2023-10-24T11:28:52.762-06:00",
+			"id": "relationship--92474487-80aa-42eb-9825-7a5cfcd41fa7",
+			"modified": "2023-10-24T11:28:52.762-06:00",
+			"relationship_type": "has",
+			"revoked": false,
+			"source_ref": "infrastructure--ebc3da19-a1d4-48d3-a069-b50e1a6b96e9",
+			"spec_version": "2.1",
+			"target_ref": "vulnerability--744e9d72-1076-4ae0-b66c-f9cdec628b4d",
+			"type": "relationship"
+		}
+	]
+}

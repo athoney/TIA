@@ -1,0 +1,823 @@
+CVE Id, CWE Id, CWE Name, Source
+CVE-2019-7287,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-7483,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),"NIST,SonicWALL, Inc."
+CVE-2018-8405,CWE-404,Improper Resource Shutdown or Release,NIST
+CVE-2020-5410,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-5410,CWE-23,Relative Path Traversal,"Pivotal Software, Inc."
+CVE-2020-0796,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-27085,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-37973,CWE-416,Use After Free,NIST
+CVE-2021-21166,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2020-1938,NVD-CWE-Other,Other,NIST
+CVE-2015-0071,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2014-4404,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-0211,CWE-416,Use After Free,NIST
+CVE-2016-7262,CWE-20,Improper Input Validation,NIST
+CVE-2020-10148,CWE-287,Improper Authentication,NIST
+CVE-2020-10148,CWE-288,Authentication Bypass Using an Alternate Path or Channel,CERT/CC
+CVE-2020-8468,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2021-31199,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-28550,CWE-416,Use After Free,Adobe Systems Incorporated
+CVE-2016-4656,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2021-1870,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2014-8439,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-6316,CWE-20,Improper Input Validation,NIST
+CVE-2020-4428,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2015-3043,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2010-1297,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2010-2861,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2019-11580,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-0683,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-1405,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-8653,CWE-787,Out-of-bounds Write,NIST
+CVE-2017-6743,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2021-22899,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),"NIST,HackerOne"
+CVE-2021-21315,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"GitHub, Inc."
+CVE-2014-4123,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2016-8562,CWE-20,Improper Input Validation,NIST
+CVE-2021-30663,CWE-190,Integer Overflow or Wraparound,NIST
+CVE-2021-36260,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2018-0172,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-0172,CWE-20,Improper Input Validation,"Cisco Systems, Inc."
+CVE-2021-1782,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2021-1782,CWE-269,Improper Privilege Management,NIST
+CVE-2019-0193,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2015-5123,CWE-416,Use After Free,NIST
+CVE-2013-2423,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2010-4398,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2008-3431,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2016-3088,CWE-20,Improper Input Validation,NIST
+CVE-2017-0210,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2014-4077,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2004-0210,NVD-CWE-Other,Other,NIST
+CVE-2018-0802,CWE-787,Out-of-bounds Write,NIST
+CVE-2012-2539,CWE-399,Resource Management Errors,NIST
+CVE-2015-2051,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2012-0518,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-4878,CWE-416,Use After Free,NIST
+CVE-2020-1027,CWE-787,Out-of-bounds Write,NIST
+CVE-2009-3960,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-8589,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-2425,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-8644,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2021-21193,CWE-416,Use After Free,NIST
+CVE-2021-21975,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2014-4148,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2021-44077,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2012-5076,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-3035,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-0147,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2018-0147,CWE-20,Improper Input Validation,"Cisco Systems, Inc."
+CVE-2016-0099,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2018-4990,CWE-415,Double Free,NIST
+CVE-2014-3153,CWE-269,Improper Privilege Management,NIST
+CVE-2022-20701,CWE-787,Out-of-bounds Write,NIST
+CVE-2022-20701,CWE-121,Stack-based Buffer Overflow,"Cisco Systems, Inc."
+CVE-2018-15982,CWE-416,Use After Free,NIST
+CVE-2018-0180,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-0180,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2019-1215,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-23874,CWE-269,Improper Privilege Management,McAfee
+CVE-2019-16057,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-8196,CWE-862,Missing Authorization,NIST
+CVE-2020-8196,CWE-284,Improper Access Control,HackerOne
+CVE-2013-0422,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2013-3660,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2018-8453,CWE-404,Improper Resource Shutdown or Release,NIST
+CVE-2010-2572,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-15505,CWE-706,Use of Incorrectly-Resolved Name or Reference,NIST
+CVE-2017-0261,CWE-416,Use After Free,NIST
+CVE-2015-1130,CWE-254,7PK - Security Features,NIST
+CVE-2021-27103,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2021-21224,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2016-0034,CWE-20,Improper Input Validation,NIST
+CVE-2019-5786,CWE-416,Use After Free,NIST
+CVE-2019-16256,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-2424,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-9907,CWE-787,Out-of-bounds Write,NIST
+CVE-2017-12235,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2020-16846,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2013-3896,CWE-20,Improper Input Validation,NIST
+CVE-2020-3118,CWE-134,Use of Externally-Controlled Format String,"NIST,Cisco Systems, Inc."
+CVE-2018-0173,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2021-35394,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2021-35394,CWE-787,Out-of-bounds Write,NIST
+CVE-2020-4430,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-8657,CWE-798,Use of Hard-coded Credentials,NIST
+CVE-2020-7247,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-7247,CWE-755,Improper Handling of Exceptional Conditions,NIST
+CVE-2016-0167,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2021-21148,CWE-787,Out-of-bounds Write,NIST
+CVE-2006-2492,NVD-CWE-Other,Other,NIST
+CVE-2018-20062,CWE-20,Improper Input Validation,NIST
+CVE-2020-17530,CWE-917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression La,NIST
+CVE-2022-26143,CWE-863,Incorrect Authorization,NIST
+CVE-2010-0738,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2019-11510,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-0878,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-8414,CWE-20,Improper Input Validation,NIST
+CVE-2019-1652,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2019-1652,CWE-20,Improper Input Validation,"Cisco Systems, Inc."
+CVE-2017-6862,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-5825,CWE-787,Out-of-bounds Write,NIST
+CVE-2014-0322,CWE-416,Use After Free,NIST
+CVE-2019-19356,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-37976,CWE-862,Missing Authorization,NIST
+CVE-2014-6332,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2018-0158,CWE-772,Missing Release of Resource after Effective Lifetime,NIST
+CVE-2018-0158,CWE-20,Improper Input Validation,"Cisco Systems, Inc."
+CVE-2020-11652,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2015-1427,CWE-284,Improper Access Control,NIST
+CVE-2015-2545,CWE-20,Improper Input Validation,NIST
+CVE-2018-11138,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-6819,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2012-2034,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-0688,CWE-287,Improper Authentication,NIST
+CVE-2021-3156,CWE-193,Off-by-one Error,NIST
+CVE-2022-20699,CWE-787,Out-of-bounds Write,NIST
+CVE-2022-20699,CWE-121,Stack-based Buffer Overflow,"Cisco Systems, Inc."
+CVE-2021-43890,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2022-21999,CWE-269,Improper Privilege Management,NIST
+CVE-2021-40870,CWE-436,Interpretation Conflict,NIST
+CVE-2015-1187,CWE-287,Improper Authentication,NIST
+CVE-2021-22941,CWE-269,Improper Privilege Management,NIST
+CVE-2021-22941,CWE-284,Improper Access Control,HackerOne
+CVE-2019-15752,CWE-732,Incorrect Permission Assignment for Critical Resource,NIST
+CVE-2014-0780,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-10987,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-22204,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2018-13379,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-22205,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2012-0507,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-11882,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2014-2817,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2021-38649,CWE-269,Improper Privilege Management,NIST
+CVE-2016-11021,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2019-0841,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2017-1000486,CWE-326,Inadequate Encryption Strength,NIST
+CVE-2021-1647,CWE-131,Incorrect Calculation of Buffer Size,NIST
+CVE-2021-30761,CWE-787,Out-of-bounds Write,NIST
+CVE-2017-8291,CWE-704,Incorrect Type Conversion or Cast,NIST
+CVE-2022-22954,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2021-42278,CWE-269,Improper Privilege Management,NIST
+CVE-2021-30665,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-7600,CWE-20,Improper Input Validation,NIST
+CVE-2016-6277,CWE-352,Cross-Site Request Forgery (CSRF),NIST
+CVE-2021-37975,CWE-416,Use After Free,NIST
+CVE-2009-3953,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-1350,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-0968,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-0863,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-5002,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-5591,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2018-20753,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-12989,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2022-23131,CWE-290,Authentication Bypass by Spoofing,"NIST,Zabbix"
+CVE-2014-4113,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-5902,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-8515,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-26084,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2019-15271,CWE-502,Deserialization of Untrusted Data,"NIST,Cisco Systems, Inc."
+CVE-2020-1472,CWE-330,Use of Insufficiently Random Values,NIST
+CVE-2020-3837,CWE-787,Out-of-bounds Write,NIST
+CVE-2012-1856,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2021-30632,CWE-787,Out-of-bounds Write,NIST
+CVE-2015-2360,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2015-2502,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2009-2055,CWE-20,Improper Input Validation,NIST
+CVE-2019-8506,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2020-17087,CWE-681,Incorrect Conversion between Numeric Types,NIST
+CVE-2020-7961,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2018-0155,CWE-755,Improper Handling of Exceptional Conditions,NIST
+CVE-2018-0155,CWE-388,7PK - Errors,"Cisco Systems, Inc."
+CVE-2021-27065,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2015-0310,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2021-35247,CWE-20,Improper Input Validation,"NIST,SolarWinds"
+CVE-2020-8816,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-8599,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-30807,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-0903,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-42237,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2020-11899,CWE-125,Out-of-bounds Read,NIST
+CVE-2021-20023,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),"NIST,SonicWALL, Inc."
+CVE-2020-17144,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2020-27930,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-30713,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-36742,CWE-20,Improper Input Validation,NIST
+CVE-2019-12991,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2019-1132,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2013-5065,CWE-20,Improper Input Validation,NIST
+CVE-2019-16759,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2020-1464,CWE-347,Improper Verification of Cryptographic Signature,NIST
+CVE-2019-1064,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2015-8651,CWE-189,Numeric Errors,NIST
+CVE-2018-8373,CWE-787,Out-of-bounds Write,NIST
+CVE-2014-6352,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2019-0676,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-25298,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-1871,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-12271,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2019-11043,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-11043,CWE-120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),PHP Group
+CVE-2016-3715,CWE-284,Improper Access Control,NIST
+CVE-2013-3906,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2015-1642,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2022-24682,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),NIST
+CVE-2021-40449,CWE-269,Improper Privilege Management,NIST
+CVE-2019-1214,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-1273,CWE-20,Improper Input Validation,NIST
+CVE-2018-1273,CWE-94,Improper Control of Generation of Code ('Code Injection'),Dell
+CVE-2005-2773,NVD-CWE-Other,Other,NIST
+CVE-2021-30554,CWE-416,Use After Free,NIST
+CVE-2022-22960,CWE-269,Improper Privilege Management,NIST
+CVE-2018-6961,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2019-16928,CWE-787,Out-of-bounds Write,NIST
+CVE-2022-26318,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-1253,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2017-9841,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2020-0646,CWE-91,XML Injection (aka Blind XPath Injection),NIST
+CVE-2020-13927,CWE-1188,Insecure Default Initialization of Resource,NIST
+CVE-2019-0859,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-3580,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),"NIST,Cisco Systems, Inc."
+CVE-2017-0022,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2021-35464,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2021-1905,CWE-416,Use After Free,NIST
+CVE-2021-27059,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2010-5326,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-6789,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-27860,CWE-434,Unrestricted Upload of File with Dangerous Type,"NIST,CERT/CC"
+CVE-2021-36934,CWE-732,Incorrect Permission Assignment for Critical Resource,NIST
+CVE-2020-17463,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2013-1331,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-13608,CWE-611,Improper Restriction of XML External Entity Reference,NIST
+CVE-2018-0161,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-0161,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2021-22600,CWE-415,Double Free,"NIST,Google Inc."
+CVE-2020-0787,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2020-0787,CWE-269,Improper Privilege Management,NIST
+CVE-2021-26855,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2021-26858,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-11634,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-34473,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2012-1723,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12231,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12231,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2012-4969,NVD-CWE-Other,Other,NIST
+CVE-2019-10068,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2019-9082,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2019-9082,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2021-42258,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2019-19781,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-31979,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2022-0543,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2009-1123,CWE-20,Improper Input Validation,NIST
+CVE-2016-1555,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2020-6418,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2021-36948,CWE-269,Improper Privilege Management,NIST
+CVE-2019-4716,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2019-4716,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-20021,CWE-269,Improper Privilege Management,"NIST,SonicWALL, Inc."
+CVE-2016-3718,CWE-20,Improper Input Validation,NIST
+CVE-2021-21551,NVD-CWE-Other,Other,NIST
+CVE-2021-21551,CWE-285,Improper Authorization,Dell
+CVE-2021-28310,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2016-4523,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2010-0232,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-17496,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2021-41773,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),"NIST,Apache Software Foundation"
+CVE-2019-5544,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-1579,CWE-134,Use of Externally-Controlled Format String,NIST
+CVE-2021-21206,CWE-416,Use After Free,NIST
+CVE-2015-7645,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-0001,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-38003,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-17463,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-20022,CWE-434,Unrestricted Upload of File with Dangerous Type,"NIST,SonicWALL, Inc."
+CVE-2022-23176,CWE-269,Improper Privilege Management,NIST
+CVE-2017-0263,CWE-416,Use After Free,NIST
+CVE-2021-34523,CWE-287,Improper Authentication,NIST
+CVE-2018-10562,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2017-12615,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2017-12617,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2017-9791,CWE-20,Improper Input Validation,NIST
+CVE-2020-16009,CWE-787,Out-of-bounds Write,NIST
+CVE-2020-16009,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2019-1653,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2019-1653,CWE-284,Improper Access Control,"Cisco Systems, Inc."
+CVE-2017-12233,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2016-0189,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2013-0640,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-22900,CWE-94,Improper Control of Generation of Code ('Code Injection'),"NIST,HackerOne"
+CVE-2017-8464,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-42321,NVD-CWE-Other,Other,NIST
+CVE-2010-3333,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2016-7201,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2016-4117,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-1147,NVD-CWE-Other,Other,NIST
+CVE-2015-1769,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2021-1048,CWE-416,Use After Free,NIST
+CVE-2019-11581,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2022-20821,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,"NIST,Cisco Systems, Inc."
+CVE-2021-22894,CWE-120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),NIST
+CVE-2021-22894,CWE-94,Improper Control of Generation of Code ('Code Injection'),HackerOne
+CVE-2022-26134,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2021-30860,CWE-190,Integer Overflow or Wraparound,NIST
+CVE-2012-0754,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2016-5195,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2011-2462,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2014-0546,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-0313,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-33739,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2008-2992,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2016-7255,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-14882,NVD-CWE-Other,Other,NIST
+CVE-2017-6663,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-18935,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2022-30190,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2014-1776,CWE-416,Use After Free,NIST
+CVE-2018-0125,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2011-2005,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-13671,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2021-20090,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-20038,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-20038,CWE-121,Stack-based Buffer Overflow,"SonicWALL, Inc."
+CVE-2022-21919,CWE-269,Improper Privilege Management,NIST
+CVE-2019-1129,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2019-8605,CWE-416,Use After Free,NIST
+CVE-2021-31207,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2014-1812,CWE-255,Credentials Management Errors,NIST
+CVE-2021-38645,CWE-269,Improper Privilege Management,NIST
+CVE-2020-29557,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-1367,CWE-787,Out-of-bounds Write,NIST
+CVE-2020-14883,NVD-CWE-Other,Other,NIST
+CVE-2022-22947,CWE-94,Improper Control of Generation of Code ('Code Injection'),"NIST,VMware"
+CVE-2022-22587,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-0920,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2019-20085,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-41357,CWE-269,Improper Privilege Management,NIST
+CVE-2020-10199,CWE-917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression La,NIST
+CVE-2020-15999,CWE-787,Out-of-bounds Write,NIST
+CVE-2016-3976,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-14839,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-0638,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-0151,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2016-7200,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-6744,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2021-21017,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-21017,CWE-122,Heap-based Buffer Overflow,Adobe Systems Incorporated
+CVE-2019-17026,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2021-30869,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2021-33766,CWE-287,Improper Authentication,NIST
+CVE-2014-0130,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-0296,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-0296,CWE-20,Improper Input Validation,"Cisco Systems, Inc."
+CVE-2020-9377,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-40444,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-3992,CWE-416,Use After Free,NIST
+CVE-2018-0179,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-0179,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2021-40438,CWE-918,Server-Side Request Forgery (SSRF),"NIST,Apache Software Foundation"
+CVE-2011-3544,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-26919,NVD-CWE-Other,Other,NIST
+CVE-2017-6627,CWE-404,Improper Resource Shutdown or Release,NIST
+CVE-2017-6627,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2017-17562,CWE-20,Improper Input Validation,NIST
+CVE-2020-10181,CWE-352,Cross-Site Request Forgery (CSRF),NIST
+CVE-2017-0005,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-0752,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2013-3900,CWE-20,Improper Input Validation,NIST
+CVE-2018-4344,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-25506,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-4102,CWE-416,Use After Free,NIST
+CVE-2021-44515,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-2546,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-1789,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2009-0927,CWE-20,Improper Input Validation,NIST
+CVE-2018-15961,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2010-0840,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-22005,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2019-7286,CWE-787,Out-of-bounds Write,NIST
+CVE-2014-4114,CWE-20,Improper Input Validation,NIST
+CVE-2020-24557,NVD-CWE-Other,Other,NIST
+CVE-2014-9163,NVD-CWE-Other,Other,NIST
+CVE-2021-28799,NVD-CWE-Other,Other,NIST
+CVE-2021-28799,CWE-285,Improper Authorization,"QNAP Systems, Inc."
+CVE-2016-2388,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2017-6334,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-44168,CWE-494,Download of Code Without Integrity Check,NIST
+CVE-2020-1956,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-2509,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),"NIST,QNAP Systems, Inc."
+CVE-2020-2509,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"QNAP Systems, Inc."
+CVE-2021-30563,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2018-19953,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),"NIST,QNAP Systems, Inc."
+CVE-2018-19953,CWE-80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),"QNAP Systems, Inc."
+CVE-2016-4171,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-3881,CWE-20,Improper Input Validation,NIST
+CVE-2018-14847,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-1497,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"Cisco Systems, Inc."
+CVE-2021-35211,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2013-0632,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2014-0160,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-6738,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2016-10174,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-44228,CWE-502,Deserialization of Untrusted Data,"NIST,Apache Software Foundation"
+CVE-2021-44228,CWE-400,Uncontrolled Resource Consumption,Apache Software Foundation
+CVE-2021-44228,CWE-20,Improper Input Validation,Apache Software Foundation
+CVE-2013-3897,CWE-399,Resource Management Errors,NIST
+CVE-2019-8394,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2018-13383,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-33742,CWE-681,Incorrect Conversion between Numeric Types,NIST
+CVE-2020-11738,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-30661,CWE-416,Use After Free,NIST
+CVE-2016-0162,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2020-27950,CWE-665,Improper Initialization,NIST
+CVE-2021-36741,CWE-20,Improper Input Validation,NIST
+CVE-2022-29499,CWE-20,Improper Input Validation,NIST
+CVE-2019-7193,CWE-20,Improper Input Validation,NIST
+CVE-2021-36942,CWE-290,Authentication Bypass by Spoofing,NIST
+CVE-2021-22506,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-27101,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2009-1151,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2013-2551,CWE-416,Use After Free,NIST
+CVE-2015-1770,CWE-19,Data Processing Errors,NIST
+CVE-2016-7256,CWE-284,Improper Access Control,NIST
+CVE-2021-30533,CWE-863,Incorrect Authorization,NIST
+CVE-2020-4006,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2018-6882,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),NIST
+CVE-2019-18988,CWE-521,Weak Password Requirements,NIST
+CVE-2020-3161,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2021-31166,CWE-416,Use After Free,NIST
+CVE-2015-4902,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2016-7892,CWE-416,Use After Free,NIST
+CVE-2012-1535,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2007-5659,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-35395,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-35395,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2018-8440,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2009-0563,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-18426,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),"NIST,Facebook, Inc."
+CVE-2016-3351,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2015-1671,CWE-19,Data Processing Errors,NIST
+CVE-2017-11826,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-14871,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-7192,CWE-863,Incorrect Authorization,NIST
+CVE-2016-0984,NVD-CWE-Other,Other,NIST
+CVE-2010-2883,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-1040,CWE-20,Improper Input Validation,NIST
+CVE-2019-2725,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2020-10189,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2017-6736,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2012-0158,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2012-5054,CWE-189,Numeric Errors,NIST
+CVE-2018-0154,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-0154,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2015-5122,NVD-CWE-Other,Other,NIST
+CVE-2012-1710,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-19943,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),"NIST,QNAP Systems, Inc."
+CVE-2018-19943,CWE-80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),"QNAP Systems, Inc."
+CVE-2018-0156,CWE-20,Improper Input Validation,NIST
+CVE-2018-0156,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2018-0174,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2020-0674,CWE-416,Use After Free,NIST
+CVE-2021-34486,CWE-269,Improper Privilege Management,NIST
+CVE-2019-0708,CWE-416,Use After Free,NIST
+CVE-2018-14558,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-3952,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2013-0641,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12238,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12238,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2016-0151,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2017-11292,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2020-14864,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2017-0149,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2022-22620,CWE-416,Use After Free,NIST
+CVE-2020-9859,CWE-415,Double Free,NIST
+CVE-2010-4345,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-10221,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2022-24521,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2013-1675,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-8655,CWE-269,Improper Privilege Management,NIST
+CVE-2018-15811,CWE-326,Inadequate Encryption Strength,NIST
+CVE-2021-1879,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),NIST
+CVE-2015-4495,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2021-22893,CWE-287,Improper Authentication,"NIST,HackerOne"
+CVE-2017-8759,CWE-20,Improper Input Validation,NIST
+CVE-2017-5070,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2017-6077,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2010-1428,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-16017,CWE-416,Use After Free,NIST
+CVE-2017-0101,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2013-0431,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-1641,CWE-399,Resource Management Errors,NIST
+CVE-2020-12812,CWE-178,Improper Handling of Case Sensitivity,NIST
+CVE-2009-1862,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2011-0611,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2010-0188,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2018-17480,CWE-787,Out-of-bounds Write,NIST
+CVE-2006-1547,NVD-CWE-Other,Other,NIST
+CVE-2017-0059,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2022-20703,CWE-787,Out-of-bounds Write,NIST
+CVE-2022-20703,CWE-121,Stack-based Buffer Overflow,"Cisco Systems, Inc."
+CVE-2021-21220,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-9978,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),NIST
+CVE-2020-6287,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2022-1096,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2019-3568,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-3568,CWE-122,Heap-based Buffer Overflow,"Facebook, Inc."
+CVE-2015-0666,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-31201,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-1732,CWE-269,Improper Privilege Management,NIST
+CVE-2017-11317,CWE-326,Inadequate Encryption Strength,NIST
+CVE-2012-3152,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-30666,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-21973,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2017-0143,CWE-20,Improper Input Validation,NIST
+CVE-2019-1322,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12232,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12232,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2019-17558,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),NIST
+CVE-2018-20250,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-20250,CWE-36,Absolute Path Traversal,Check Point Software Technologies Ltd.
+CVE-2020-0069,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-26085,CWE-862,Missing Authorization,NIST
+CVE-2021-25296,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2016-6366,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2012-0151,CWE-20,Improper Input Validation,NIST
+CVE-2017-5030,CWE-125,Out-of-bounds Read,NIST
+CVE-2009-0557,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2013-7331,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2015-1701,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2022-0847,CWE-665,Improper Initialization,"NIST,Red Hat, Inc."
+CVE-2022-0847,CWE-281,Improper Preservation of Permissions,"Red Hat, Inc."
+CVE-2021-41379,CWE-269,Improper Privilege Management,NIST
+CVE-2016-9563,CWE-611,Improper Restriction of XML External Entity Reference,NIST
+CVE-2019-2616,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-40450,CWE-269,Improper Privilege Management,NIST
+CVE-2016-4437,CWE-284,Improper Access Control,NIST
+CVE-2021-28664,CWE-787,Out-of-bounds Write,NIST
+CVE-2013-3346,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-0146,CWE-20,Improper Input Validation,NIST
+CVE-2021-20016,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),"NIST,SonicWALL, Inc."
+CVE-2016-0040,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2018-8581,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2022-1040,CWE-287,Improper Authentication,NIST
+CVE-2015-2426,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-0213,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2016-1019,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-11651,NVD-CWE-Other,Other,NIST
+CVE-2022-20708,CWE-787,Out-of-bounds Write,NIST
+CVE-2022-20708,CWE-121,Stack-based Buffer Overflow,"Cisco Systems, Inc."
+CVE-2014-6324,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2014-0496,CWE-399,Resource Management Errors,NIST
+CVE-2019-10758,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-9054,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"NIST,CERT/CC"
+CVE-2021-30883,CWE-787,Out-of-bounds Write,NIST
+CVE-2014-6271,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2021-25297,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2018-7841,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2017-8570,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-27852,CWE-502,Deserialization of Untrusted Data,"NIST,CERT/CC"
+CVE-2022-22675,CWE-787,Out-of-bounds Write,NIST
+CVE-2016-0752,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2016-0185,CWE-20,Improper Input Validation,NIST
+CVE-2013-3993,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2021-1675,CWE-269,Improper Privilege Management,NIST
+CVE-2022-31460,CWE-798,Use of Hard-coded Credentials,NIST
+CVE-2021-36955,CWE-269,Improper Privilege Management,NIST
+CVE-2019-3398,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2020-25223,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2017-0144,CWE-20,Improper Input Validation,NIST
+CVE-2022-21882,CWE-269,Improper Privilege Management,NIST
+CVE-2018-0171,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-0171,CWE-20,Improper Input Validation,"Cisco Systems, Inc."
+CVE-2014-6287,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2021-38648,CWE-287,Improper Authentication,NIST
+CVE-2007-3010,CWE-20,Improper Input Validation,NIST
+CVE-2016-4655,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2009-3129,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2019-1429,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-1429,CWE-416,Use After Free,NIST
+CVE-2010-5330,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2013-0629,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2019-3010,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2013-0631,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2022-1388,CWE-306,Missing Authentication for Critical Function,"NIST,F5 Networks"
+CVE-2021-4034,CWE-787,Out-of-bounds Write,"NIST,Red Hat, Inc."
+CVE-2021-4034,CWE-125,Out-of-bounds Read,"Red Hat, Inc."
+CVE-2020-1020,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-6065,CWE-190,Integer Overflow or Wraparound,NIST
+CVE-2018-6065,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-1458,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-7195,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-8174,CWE-787,Out-of-bounds Write,NIST
+CVE-2017-10271,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-0808,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-0311,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-1000861,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2010-1871,CWE-20,Improper Input Validation,NIST
+CVE-2021-22986,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2013-0625,CWE-255,Credentials Management Errors,NIST
+CVE-2019-13272,CWE-269,Improper Privilege Management,NIST
+CVE-2017-9805,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2019-3929,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2019-3929,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),"Tenable Network Security, Inc."
+CVE-2020-4427,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-22502,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2019-1003030,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-1003030,CWE-693,Protection Mechanism Failure,Jenkins Project
+CVE-2016-3643,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2022-23134,CWE-863,Incorrect Authorization,NIST
+CVE-2022-23134,CWE-284,Improper Access Control,Zabbix
+CVE-2015-2590,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-22991,CWE-20,Improper Input Validation,NIST
+CVE-2018-0159,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2021-30633,CWE-416,Use After Free,NIST
+CVE-2017-11774,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-0199,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2015-0016,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2019-7609,CWE-94,Improper Control of Generation of Code ('Code Injection'),"NIST,Elastic"
+CVE-2015-2387,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-1380,CWE-787,Out-of-bounds Write,NIST
+CVE-2016-7193,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-31956,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-6223,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-1054,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-38163,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-5722,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2021-21985,CWE-20,Improper Input Validation,NIST
+CVE-2021-30657,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-20028,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),"NIST,SonicWALL, Inc."
+CVE-2020-8243,CWE-94,Improper Control of Generation of Code ('Code Injection'),"NIST,HackerOne"
+CVE-2017-9822,CWE-20,Improper Input Validation,NIST
+CVE-2022-30525,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"NIST,Zyxel Corporation"
+CVE-2017-0222,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-8260,CWE-434,Unrestricted Upload of File with Dangerous Type,"NIST,HackerOne"
+CVE-2021-34484,CWE-269,Improper Privilege Management,NIST
+CVE-2009-4324,CWE-399,Resource Management Errors,NIST
+CVE-2021-32648,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-32648,CWE-287,Improper Authentication,"GitHub, Inc."
+CVE-2016-5198,CWE-125,Out-of-bounds Read,NIST
+CVE-2016-5198,CWE-787,Out-of-bounds Write,NIST
+CVE-2016-1010,CWE-189,Numeric Errors,NIST
+CVE-2021-26411,CWE-787,Out-of-bounds Write,NIST
+CVE-2016-3393,CWE-284,Improper Access Control,NIST
+CVE-2017-6740,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2020-2555,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2011-1889,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2008-0655,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2014-7169,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2016-2386,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2020-5849,CWE-697,Incorrect Comparison,NIST
+CVE-2020-5849,CWE-287,Improper Authentication,NIST
+CVE-2016-3298,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2020-6207,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2016-1646,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2020-25213,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2020-3950,CWE-269,Improper Privilege Management,NIST
+CVE-2021-30116,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-12234,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2019-7238,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2017-18362,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),NIST
+CVE-2020-0938,CWE-787,Out-of-bounds Write,NIST
+CVE-2017-12319,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2021-37415,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2013-1347,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2018-0167,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2020-14750,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-30983,CWE-120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),NIST
+CVE-2016-6367,NVD-CWE-Other,Other,NIST
+CVE-2012-1823,CWE-20,Improper Input Validation,NIST
+CVE-2019-11539,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2018-0798,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-1003029,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-1003029,CWE-693,Protection Mechanism Failure,Jenkins Project
+CVE-2010-3035,CWE-20,Improper Input Validation,NIST
+CVE-2019-7194,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2022-26871,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2021-45382,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2014-3120,CWE-284,Improper Access Control,NIST
+CVE-2019-1297,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-9670,CWE-611,Improper Restriction of XML External Entity Reference,NIST
+CVE-2017-0147,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2021-30762,CWE-416,Use After Free,NIST
+CVE-2021-34448,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-18325,CWE-326,Inadequate Encryption Strength,NIST
+CVE-2020-3566,CWE-400,Uncontrolled Resource Consumption,"NIST,Cisco Systems, Inc."
+CVE-2022-22674,CWE-125,Out-of-bounds Read,NIST
+CVE-2017-9248,CWE-522,Insufficiently Protected Credentials,NIST
+CVE-2017-0037,CWE-704,Incorrect Type Conversion or Cast,NIST
+CVE-2020-8218,CWE-94,Improper Control of Generation of Code ('Code Injection'),"NIST,HackerOne"
+CVE-2020-3569,CWE-400,Uncontrolled Resource Consumption,"NIST,Cisco Systems, Inc."
+CVE-2019-3396,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2017-6739,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2021-42013,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),"NIST,Apache Software Foundation"
+CVE-2022-20700,CWE-787,Out-of-bounds Write,NIST
+CVE-2022-20700,CWE-121,Stack-based Buffer Overflow,"Cisco Systems, Inc."
+CVE-2021-34527,CWE-269,Improper Privilege Management,NIST
+CVE-2021-42287,CWE-269,Improper Privilege Management,NIST
+CVE-2019-1315,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2002-0367,NVD-CWE-Other,Other,NIST
+CVE-2021-38646,CWE-787,Out-of-bounds Write,NIST
+CVE-2021-38646,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2015-2419,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2017-7269,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2022-22965,CWE-94,Improper Control of Generation of Code ('Code Injection'),"NIST,VMware"
+CVE-2020-5135,CWE-120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),"NIST,SonicWALL, Inc."
+CVE-2022-0609,CWE-416,Use After Free,NIST
+CVE-2019-0543,CWE-287,Improper Authentication,NIST
+CVE-2022-29464,CWE-434,Unrestricted Upload of File with Dangerous Type,NIST
+CVE-2021-1498,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"Cisco Systems, Inc."
+CVE-2019-7481,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),"NIST,SonicWALL, Inc."
+CVE-2016-3235,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2018-10561,CWE-287,Improper Authentication,NIST
+CVE-2020-5847,NVD-CWE-Other,Other,NIST
+CVE-2017-16651,CWE-552,Files or Directories Accessible to External Parties,NIST
+CVE-2021-33771,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2013-0074,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-2506,CWE-863,Incorrect Authorization,NIST
+CVE-2020-2506,CWE-284,Improper Access Control,"QNAP Systems, Inc."
+CVE-2019-0880,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2019-6340,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2021-26857,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2018-7602,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-0986,CWE-787,Out-of-bounds Write,NIST
+CVE-2020-8193,CWE-862,Missing Authorization,NIST
+CVE-2020-8193,CWE-284,Improper Access Control,HackerOne
+CVE-2013-2251,CWE-20,Improper Input Validation,NIST
+CVE-2021-27561,CWE-918,Server-Side Request Forgery (SSRF),NIST
+CVE-2015-6175,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2018-0175,CWE-134,Use of Externally-Controlled Format String,NIST
+CVE-2018-0175,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"Cisco Systems, Inc."
+CVE-2020-9819,CWE-787,Out-of-bounds Write,NIST
+CVE-2017-0148,CWE-20,Improper Input Validation,NIST
+CVE-2019-16920,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-11978,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2022-22718,CWE-269,Improper Privilege Management,NIST
+CVE-2013-2465,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-0601,CWE-295,Improper Certificate Validation,NIST
+CVE-2021-38000,CWE-20,Improper Input Validation,NIST
+CVE-2016-3309,CWE-264,"Permissions, Privileges, and Access Controls",NIST
+CVE-2020-16010,CWE-787,Out-of-bounds Write,NIST
+CVE-2014-1761,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-11707,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2012-4681,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-31955,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,NIST
+CVE-2018-8298,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2021-30551,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2020-6820,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2018-13382,CWE-285,Improper Authorization,NIST
+CVE-2020-8467,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2013-5223,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),NIST
+CVE-2019-15107,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-27932,CWE-843,Access of Resource Using Incompatible Type ('Type Confusion'),NIST
+CVE-2015-4852,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2020-5735,CWE-787,Out-of-bounds Write,NIST
+CVE-2020-5735,CWE-121,Stack-based Buffer Overflow,"Tenable Network Security, Inc."
+CVE-2018-8120,CWE-404,Improper Resource Shutdown or Release,NIST
+CVE-2021-28663,CWE-416,Use After Free,NIST
+CVE-2012-0767,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),NIST
+CVE-2021-30858,CWE-416,Use After Free,NIST
+CVE-2012-1889,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-27102,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2020-29583,CWE-522,Insufficiently Protected Credentials,NIST
+CVE-2017-12149,CWE-502,Deserialization of Untrusted Data,"NIST,Red Hat, Inc."
+CVE-2017-12237,CWE-400,Uncontrolled Resource Consumption,NIST
+CVE-2017-12237,CWE-399,Resource Management Errors,"Cisco Systems, Inc."
+CVE-2018-2380,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2019-0541,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),NIST
+CVE-2020-3452,CWE-20,Improper Input Validation,"NIST,Cisco Systems, Inc."
+CVE-2017-5638,CWE-20,Improper Input Validation,NIST
+CVE-2020-9818,CWE-787,Out-of-bounds Write,NIST
+CVE-2019-0703,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2018-8611,CWE-404,Improper Resource Shutdown or Release,NIST
+CVE-2017-6737,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,"NIST,Cisco Systems, Inc."
+CVE-2017-8540,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2015-5119,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2021-27562,CWE-787,Out-of-bounds Write,NIST
+CVE-2018-8406,CWE-404,Improper Resource Shutdown or Release,NIST
+CVE-2021-27104,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),NIST
+CVE-2017-0262,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2021-42292,NVD-CWE-noinfo,Insufficient Information,NIST
+CVE-2020-0041,CWE-20,Improper Input Validation,NIST
+CVE-2022-26904,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),NIST
+CVE-2020-2021,CWE-347,Improper Verification of Cryptographic Signature,"NIST,Palo Alto Networks, Inc."
+CVE-2019-1385,CWE-59,Improper Link Resolution Before File Access ('Link Following'),NIST
+CVE-2021-39793,CWE-787,Out-of-bounds Write,NIST
+CVE-2016-4657,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2019-11708,CWE-20,Improper Input Validation,NIST
+CVE-2022-24086,CWE-20,Improper Input Validation,Adobe Systems Incorporated
+CVE-2015-3113,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,NIST
+CVE-2018-19949,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),"NIST,QNAP Systems, Inc."
+CVE-2018-19949,CWE-20,Improper Input Validation,"QNAP Systems, Inc."
+CVE-2018-19949,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"QNAP Systems, Inc."
+CVE-2015-7450,CWE-94,Improper Control of Generation of Code ('Code Injection'),NIST
+CVE-2019-0604,CWE-20,Improper Input Validation,NIST
+CVE-2017-0145,CWE-20,Improper Input Validation,NIST
+CVE-2020-6572,CWE-416,Use After Free,NIST
+CVE-2015-4068,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2018-4939,CWE-502,Deserialization of Untrusted Data,NIST
+CVE-2021-1906,CWE-755,Improper Handling of Exceptional Conditions,NIST
+CVE-2020-11261,CWE-20,Improper Input Validation,NIST
+CVE-2021-21972,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),NIST
+CVE-2021-21972,CWE-306,Missing Authentication for Critical Function,NIST
+CVE-2019-0803,NVD-CWE-noinfo,Insufficient Information,NIST

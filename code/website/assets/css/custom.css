@@ -1,0 +1,188 @@
+/* General CSS for TIA */
+
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+
+body {
+  padding-top: 70px;
+  font-family: 'Trispace', sans-serif;
+  color: #fff;
+  background: #222629;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+a {
+  outline: none;
+  color: #23CE6B;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #1A9C51;
+}
+
+.bg-green {
+  background-color: #23CE6B;
+}
+
+.tia-desc {
+  font-size: 1.5rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -999em;
+}
+
+/* Navbar CSS */
+.nav-item .nav-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #222629;
+}
+
+.navbar-collapse {
+  background-color: #222629;
+  color: #ffffff;
+  padding-left: 42px;
+}
+
+.nav-item .dropdown-menu {
+  background-color: #222629;
+  color: #ffffff;
+}
+
+.navbar-tia .navbar-brand {
+  color: #23CE6B;
+  background-color: #222629;
+  cursor: pointer;
+}
+
+.navbar-tia .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35,206,107, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar {
+  background-color: #222629;
+}
+
+/* Button CSS */
+.btn.btn-primary {
+  color: #ffffff;
+  background-color: #23CE6B !important;
+  border: 1px solid #23CE6B !important;
+  -webkit-box-shadow: 0 4px 20px rgba(9, 55, 29, 0.15);
+  box-shadow: 0 4px 20px rgba(9, 55, 29, 0.15);
+}
+
+/* SHIFT */
+nav.shift ul li a {
+  position: relative;
+  z-index: 1;
+}
+
+nav.shift ul li a:hover {
+  color: #222629;
+}
+
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #23CE6B;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+/* Card CSS */
+.card {
+  background-color: #23CE6B;
+}
+
+.card-body {
+  background-color: #474B4F;
+}
+
+.pills-tia {
+  margin: 10px;
+  background-color: transparent;
+  color: #ffffff !important;
+}
+
+.pills-tia.active {
+  background-color: #fff !important;
+  color: #495057 !important;
+}
+
+.pills-tia:hover {
+  border-color: #fff;
+}
+
+/* Extra */
+.hidden {
+  display: none;
+}
+
+.dot {
+  height: 40px;
+  width: 40px;
+  background-color: #23ce6b;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #23CE6B;
+  display: inline-block;
+  margin-left: 15px;
+}
+.carousel {
+  interval: false;
+}
+
+/* Video CSS */
+video {
+    width: 320px;
+    height: auto;
+}
+@media (min-width: 768px) {
+    video {
+        width: 480px;
+    }
+}
+@media (min-width: 992px) {
+    video {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    video {
+        width: 960px;
+    }
+}
+
+/* Cursor CSS */
+#cursor{
+  height: 50px;
+  width: 50px;
+  box-shadow: 0 0 50px #23CE6B;
+  opacity: 90%;
+  background: #23CE6B;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}

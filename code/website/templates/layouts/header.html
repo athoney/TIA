@@ -1,0 +1,63 @@
+{{ define "layouts/header.html"}}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="TIA Research Project">
+    <meta name="author" content="Alicia Thoney">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/assets/css/application.css" />
+    <link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
+    <title>TIA</title>
+    <link rel="icon" href="assets/img/logotrans.png" type="image/icon type">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+
+<body class="d-flex h-100 mb-5">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-md fixed-top navbar-tia shift">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="/home">
+                    <img src="assets/img/logotrans.png" height="30"> TIA
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown"
+                    aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style=""></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarDropdown">
+                    <ul class="navbar-nav" style="margin-left: auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/graph">Graph</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/help">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        {{ end }}
